@@ -3,7 +3,7 @@
 function Navbar() {
   return (
     <nav
-  className="relative flex ml-64  flex-wrap items-center justify-between bg-white py-3 text-black shadow-lg lg:flex-wrap lg:justify-start"
+  className="relative flex ml-64 sticky top-0 z-0  flex-wrap items-center justify-between  py-3 text-black shadow-lg lg:flex-wrap lg:justify-start"
   data-te-navbar-ref=""
 >
   <div className="flex w-full flex-wrap items-center justify-between px-6">
@@ -37,7 +37,7 @@ function Navbar() {
       data-te-collapse-item=""
     >
       <a className="pr-2 text-xl font-semibold text-black" href="#">
-        Navbar
+        Tars
       </a>
       {/* Left links */}
       <ul
@@ -50,7 +50,7 @@ function Navbar() {
             href="#"
             data-te-nav-link-ref=""
           >
-            Dashboard
+            About
           </a>
         </li>
         <li className="p-2" data-te-nav-item-ref="">
