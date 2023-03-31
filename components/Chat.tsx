@@ -35,13 +35,14 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
     />
     <Button
       type="submit"
-      className="ml-4  flex-none"
+      className="ml-4  flex-none bg-fuchsia-700"
       onClick={() => {
         sendMessage(input)
         setInput('')
       }}
     >
       Say
+      
     </Button>
   </div>
 )
