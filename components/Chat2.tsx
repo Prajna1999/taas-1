@@ -10,7 +10,7 @@ const COOKIE_NAME = 'nextjs-example-ai-chat-gpt3'
 export const initialMessages: ChatGPTMessage[] = [
   
    {
-    "role":"assistant", "content":'I am Ramanujan, ask me anything maths.'
+    "role":"assistant", "content":'I am Hawkings, I am quite famous!'
    }
   
 ]
@@ -21,7 +21,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
   <div className="mt-4 flex clear-both">
     <input
       type="text"
-      placeholder='Type whatever finance queries you have'
+      placeholder='Type whatever math queries you have'
       aria-label="chat input"
       required
       className="min-w-0 h-12 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 sm:text-sm"
@@ -50,7 +50,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
   </div>
 )
 
-export function Chat() {
+export function Chat2() {
   const [messages, setMessages] = useState<ChatGPTMessage[]>(initialMessages)
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
@@ -74,7 +74,7 @@ export function Chat() {
     setMessages(newMessages)
     const last10messages = newMessages.slice(-10) // remember last 10 messages
 
-    const response = await fetch('/api/chat', {
+    const response = await fetch('/api/chat2', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
