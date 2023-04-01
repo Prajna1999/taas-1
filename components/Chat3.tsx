@@ -10,7 +10,7 @@ const COOKIE_NAME = 'nextjs-example-ai-chat-gpt3'
 export const initialMessages: ChatGPTMessage[] = [
   
    {
-    "role":"assistant", "content":'I am Ramanujan, ask me anything maths.'
+    "role":"assistant", "content":'I am Warren, I will make sure you never lose money.'
    }
   
 ]
@@ -50,7 +50,7 @@ const InputMessage = ({ input, setInput, sendMessage }: any) => (
   </div>
 )
 
-export function Chat() {
+export function Chat3() {
   const [messages, setMessages] = useState<ChatGPTMessage[]>(initialMessages)
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
@@ -74,7 +74,7 @@ export function Chat() {
     setMessages(newMessages)
     const last10messages = newMessages.slice(-10) // remember last 10 messages
 
-    const response = await fetch('/api/chat', {
+    const response = await fetch('/api/chat3', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

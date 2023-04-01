@@ -96,20 +96,20 @@ function Sidebar() {
               </button>
               <ul id="dropdown-example" className=" py-2 space-y-2">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/tutor/ramanujan"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <span>Ramanujan</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/tutor/hawking"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <span>Hawking</span>
-                  </a>
+                  </Link>
                 </li>
                 {/* <li>
                   <a
@@ -166,28 +166,28 @@ function Sidebar() {
               </button>
               <ul id="dropdown-example" className=" py-2 space-y-2">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/assistant/warren"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                    <span>Warren</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/assistant/taxbot"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                    <span>Tax Bot</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/assistant/shakespeare"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
                     <span>Shakespeare</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -236,28 +236,28 @@ function Sidebar() {
               </button>
               <ul id="dropdown-example" className=" py-2 space-y-2">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/jester/comic"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
-                    <span>Blaine</span>
-                  </a>
+                    <span>Stand-up Comic</span>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/jester/rapper"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
-                    <span>Sylvia</span>
-                  </a>
+                    <span>Eminem</span>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    href="/jester/critic"
                     className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
                   >
-                    <span>Masand</span>
-                  </a>
+                    <span>Movie Critic</span>
+                  </Link>
                 </li>
               </ul>
             </li>

@@ -1,6 +1,6 @@
-import { Layout, Text, Page } from '@vercel/examples-ui'
+import {  Text } from '@vercel/examples-ui'
 import { Chat } from '../components/Chat'
-import {Sidebar, Navbar} from '../components'
+
 function Home() {
   return (
     <>
